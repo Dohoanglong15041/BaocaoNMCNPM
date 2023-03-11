@@ -22,22 +22,5 @@ class News extends Model
 	{
 		return $this->belongsTo('App\Category','cat_id');
 	}
-	class News extends Model
-{
-    protected $table ='news';
-	protected $guarded =[];
-
-	public function category()
-	{
-		return $this->belongsTo('App\Category','cat_id');
-	}
-}
-{
-    protected $table ='news';
-	protected $guarded =[];
-
-	public function category()
-	{
-		return $this->belongsTo('App\Category','cat_id');
-	}
+	
 }
