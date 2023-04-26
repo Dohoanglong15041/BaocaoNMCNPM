@@ -37,18 +37,5 @@ class Admins extends User
         'password_confirmation'  => 'required|min:4',
         );
 
-    public static $msg = array(
-            'name.required'   => 'Vui lòng nhập họ tên',
-            'oldpassword.required'   => 'Nhập mật khẩu cũ',
-            'name.min'   => 'Vui lòng nhập họ tên lớn hơn 3 ký tự.',
-            'email.required'  => 'Vui lòng nhập email',
-            'email.email'  => 'Vui lòng nhập đúng email',
-            'email.unique'  => 'Email đã tồn tại',
-            'password.required'  => 'Vui lòng nhập mật khẩu',
-            'password.confirmed'  => 'Mật khẩu không khớp',
-            'password_confirmation.required'  => 'Vui lòng nhập lại mật khẩu',
-            'sltlevel.required'  => 'Vui lòng chọn quyền cho tài khoản',
-            'password.min'  => 'Mật khẩu phải lớn hơn 4 ký tự',
-            'password_confirmation.min'  => 'Mật khẩu phải lớn hơn 4 ký tự'
-        );
+    
 }
